@@ -4,17 +4,20 @@ import {render} from './render';
 
 let graph = initialGraph;
 
-const clickHandler = (cell) => {
+const clickHandler = (cell, isUser) => {
     const newGraph = move(Number(cell), graph);
     if (!newGraph) {
         return null;
     }
     graph = newGraph;
     render(graph);
+    if(JSON.stringify(graph) === JSON.stringify(initialGraph) && isUser) {
+        document.querySelector('audio').play();
+    }
     const cells = [...document.querySelectorAll('.cell')];
     cells.forEach(cellElement => {
         cellElement.addEventListener('click', e => {
-            clickHandler(e.target.dataset.cell);
+            clickHandler(e.target.dataset.cell, true);
         });
     })
 };
@@ -31,7 +34,7 @@ const start = () => {
 
     setTimeout(() => {
         clearInterval(intervalId);
-    }, 5000);
+    }, 2000);
     startButton.removeEventListener('click', start);
 };
 
@@ -40,6 +43,6 @@ startButton.addEventListener('click', start);
 const cells = [...document.querySelectorAll('.cell')];
 cells.forEach(cellElement => {
     cellElement.addEventListener('click', e => {
-        clickHandler(e.target.dataset.cell);
+        clickHandler(e.target.dataset.cell, true);
     });
 });
