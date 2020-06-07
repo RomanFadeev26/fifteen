@@ -27,62 +27,217 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.cell1 {
-    background-image: url('./img/cell1.png');
+.cell1_1 {
+    background-image: url('./img/1/image_part_002.png');
 }
 
-.cell2 {
-    background-image: url('./img/cell2.png');
+.cell2_1 {
+    background-image: url('./img/1/image_part_003.png');
 }
 
-.cell3 {
-    background-image: url('./img/cell3.png');
+.cell3_1 {
+    background-image: url('./img/1/image_part_004.png');
 }
 
-.cell4 {
-    background-image: url('./img/cell4.png');
+.cell4_1 {
+    background-image: url('./img/1/image_part_005.png');
 }
 
-.cell5 {
-    background-image: url('./img/cell5.png');
+.cell5_1 {
+    background-image: url('./img/1/image_part_006.png');
 }
 
-.cell6 {
-    background-image: url('./img/cell6.png');
+.cell6_1 {
+    background-image: url('./img/1/image_part_007.png');
 }
 
-.cell7 {
-    background-image: url('./img/cell7.png');
+.cell7_1 {
+    background-image: url('./img/1/image_part_008.png');
 }
 
-.cell8 {
-    background-image: url('./img/cell8.png');
+.cell8_1 {
+    background-image: url('./img/1/image_part_009.png');
 }
 
-.cell9 {
-    background-image: url('./img/cell9.png');
+.cell9_1 {
+    background-image: url('./img/1/image_part_010.png');
 }
 
-.cell10 {
-    background-image: url('./img/cell10.png');
+.cell10_1 {
+    background-image: url('./img/1/image_part_011.png');
 }
 
-.cell11 {
-    background-image: url('./img/cell11.png');
+.cell11_1 {
+    background-image: url('./img/1/image_part_012.png');
 }
 
-.cell12 {
-    background-image: url('./img/cell12.png');
+.cell12_1 {
+    background-image: url('./img/1/image_part_013.png');
 }
 
-.cell13 {
-    background-image: url('./img/cell13.png');
+.cell13_1 {
+    background-image: url('./img/1/image_part_014.png');
 }
 
-.cell14 {
-    background-image: url('./img/cell14.png');
+.cell14_1 {
+    background-image: url('./img/1/image_part_015.png');
 }
 
-.cell15 {
-    background-image: url('./img/cell15.png');
+.cell15_1 {
+    background-image: url('./img/1/image_part_016.png');
+}
+
+
+
+.cell1_2 {
+    background-image: url('./img/2/image_part_002.jpg');
+}
+
+.cell2_2 {
+    background-image: url('./img/2/image_part_003.jpg');
+}
+
+.cell3_2 {
+    background-image: url('./img/2/image_part_004.jpg');
+}
+
+.cell4_2 {
+    background-image: url('./img/2/image_part_005.jpg');
+}
+
+.cell5_2 {
+    background-image: url('./img/2/image_part_006.jpg');
+}
+
+.cell6_2 {
+    background-image: url('./img/2/image_part_007.jpg');
+}
+
+.cell7_2 {
+    background-image: url('./img/2/image_part_008.jpg');
+}
+
+.cell8_2 {
+    background-image: url('./img/2/image_part_009.jpg');
+}
+
+.cell9_2 {
+    background-image: url('./img/2/image_part_010.jpg');
+}
+
+.cell10_2 {
+    background-image: url('./img/2/image_part_011.jpg');
+}
+
+.cell11_2 {
+    background-image: url('./img/2/image_part_012.jpg');
+}
+
+.cell12_2 {
+    background-image: url('./img/2/image_part_013.jpg');
+}
+
+.cell13_2 {
+    background-image: url('./img/2/image_part_014.jpg');
+}
+
+.cell14_2 {
+    background-image: url('./img/2/image_part_015.jpg');
+}
+
+.cell15_2 {
+    background-image: url('./img/2/image_part_016.jpg');
+}
+
+
+.cell1_3 {
+    background-image: url('./img/3/image_part_002.png');
+}
+.cell2_3 {
+    background-image: url('./img/3/image_part_003.png');
+}
+.cell3_3 {
+    background-image: url('./img/3/image_part_004.png');
+}
+.cell4_3 {
+    background-image: url('./img/3/image_part_005.png');
+}
+.cell5_3 {
+    background-image: url('./img/3/image_part_006.png');
+}
+.cell6_3 {
+    background-image: url('./img/3/image_part_007.png');
+}
+.cell7_3 {
+    background-image: url('./img/3/image_part_008.png');
+}
+.cell8_3 {
+    background-image: url('./img/3/image_part_009.png');
+}
+.cell9_3 {
+    background-image: url('./img/3/image_part_010.png');
+}
+.cell10_3 {
+    background-image: url('./img/3/image_part_011.png');
+}
+.cell11_3 {
+    background-image: url('./img/3/image_part_012.png');
+}
+.cell12_3 {
+    background-image: url('./img/3/image_part_013.png');
+}
+.cell13_3 {
+    background-image: url('./img/3/image_part_014.png');
+}
+.cell14_3 {
+    background-image: url('./img/3/image_part_015.png');
+}
+.cell15_3 {
+    background-image: url('./img/3/image_part_016.png');
+}
+
+.cell1_4 {
+    background-image: url('./img/4/image_part_002.png');
+}
+.cell2_4 {
+    background-image: url('./img/4/image_part_003.png');
+}
+.cell3_4 {
+    background-image: url('./img/4/image_part_004.png');
+}
+.cell4_4 {
+    background-image: url('./img/4/image_part_005.png');
+}
+.cell5_4 {
+    background-image: url('./img/4/image_part_006.png');
+}
+.cell6_4 {
+    background-image: url('./img/4/image_part_007.png');
+}
+.cell7_4 {
+    background-image: url('./img/4/image_part_008.png');
+}
+.cell8_4 {
+    background-image: url('./img/4/image_part_009.png');
+}
+.cell9_4 {
+    background-image: url('./img/4/image_part_010.png');
+}
+.cell10_4 {
+    background-image: url('./img/4/image_part_011.png');
+}
+.cell11_4 {
+    background-image: url('./img/4/image_part_012.png');
+}
+.cell12_4 {
+    background-image: url('./img/4/image_part_013.png');
+}
+.cell13_4 {
+    background-image: url('./img/4/image_part_014.png');
+}
+.cell14_4 {
+    background-image: url('./img/4/image_part_015.png');
+}
+.cell15_4 {
+    background-image: url('./img/4/image_part_016.png');
 }
